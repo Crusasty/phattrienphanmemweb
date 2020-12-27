@@ -1,0 +1,2229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Hompage.CSS">
+    <link href="doan.css" rel="stylesheet" />
+    <link href="Main.css" rel="stylesheet" />
+    <link href="psedu.css" rel="stylesheet" />
+    <link href="Resposive_mobile.css" rel="stylesheet" />
+    <link href="Mid.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <section id="ves-wrapper">
+        <section id="page" class="offcanvas-pusher" role="main">
+
+
+
+            <section id="header" class="header">
+                <style type="text/css">
+                    #ves-verticalmenu {
+                        right: 0px;
+                    }
+                    
+                    #header .header1 #ves-mainnav .navbar-toggle {
+                        left: 0px;
+                    }
+                    
+                    .custom-menu-homepage .col-md-3 {
+                        padding-right: 0px;
+                    }
+                    
+                    .custom-menu-none-homepage .col-md-3 {
+                        padding-right: 15px;
+                        padding-left: 0px;
+                    }
+                    
+                    .custom-menu-homepage2 .col-md-3 {
+                        background-color: white;
+                        padding-left: 0px;
+                    }
+                    
+                    .header-link-left-custom {
+                        margin-top: 5px;
+                    }
+                    
+                    .custom-menu-none-homepage {
+                        display: flex;
+                        background-color: white;
+                    }
+                    
+                    .background-menu-homepage {
+                        background-color: #F0F0F0;
+                    }
+                    
+                    .fhs-header_mobile {
+                        display: none;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 0 0 5px 0;
+                        background-color: white;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar>div:first-of-type {
+                        width: 40%;
+                    }
+                    
+                    .fhs-header_desktop>.container {
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar>div:last-of-type {
+                        width: 60%;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-end;
+                        justify-content: flex-end;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 0 0 5px 0;
+                        background-color: white;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:first-of-type {
+                        width: 209px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:first-of-type a.logo {
+                        width: 104% !important;
+                        margin-top: 3px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) {
+                        width: calc(100% - 500px);
+                        margin: 6px 0 0 30px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3) {
+                        width: 325px;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: space-between;
+                        justify-content: space-between;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search {
+                        position: relative;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search>input {
+                        height: 43px;
+                        border: 2px solid #F7941E;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search>span {
+                        position: absolute;
+                        top: calc(50% - 2px);
+                        right: 0;
+                        -webkit-transform: translate(0, -50%);
+                        -ms-transform: translate(0, -50%);
+                        -moz-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                        color: #F7941E;
+                        border: 0;
+                        font-size: 21px;
+                        text-align: center;
+                        z-index: 3;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .search_box .input-search {
+                        font-size: 1.1em;
+                        border: 2px solid #F7941E;
+                        -webkit-appearance: none;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .search {
+                        width: 100%;
+                        padding-right: 16px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3) .noti-top {
+                        margin-top: 8px;
+                        position: relative;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3)>.cart-top {
+                        padding-left: 5px;
+                        position: relative;
+                        margin-top: -10px;
+                    }
+                    
+                    .fhs-header_mobile {
+                        background-color: #F7941E;
+                        height: 93.4px;
+                    }
+                    
+                    .fhs-header_mobile>.fhs-logo img {
+                        max-width: 130px;
+                        max-height: 30px;
+                        margin-top: 5px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 5px 4px 5px 4px;
+                    }
+                    
+                    #ves-mainnav {
+                        margin-top: 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:first-of-type {
+                        text-align: center;
+                        width: 40px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) {
+                        width: calc(100% - 104px);
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type {
+                        width: 58px;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.holded {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        height: 60px;
+                        background-color: #F7941E;
+                        z-index: 999;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.logined>div:nth-of-type(2) {
+                        width: calc(100% - 156px);
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.logined>div:last-of-type {
+                        width: 108px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type>div {
+                        padding: 0 3px;
+                    }
+                    
+                    .fhs-header_mobile .ves-verticalmenu.offcanvas-actived>.block-content {
+                        display: block !important;
+                        visibility: visible !important;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar-toggle {
+                        border: 0;
+                        margin: 0;
+                        background: none!important;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar-toggle .icon-bar {
+                        height: 3px;
+                        width: 18px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .ves-autosearch {
+                        margin-left: 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) input {
+                        height: 33px;
+                        border: 1px solid #F7941E;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .form-search {
+                        padding: 8px 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .form-search>span {
+                        display: none;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .top-notification-button #icon-nofi {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_notif.svg) no-repeat center center;
+                        background-size: 20px;
+                        width: 30px;
+                        height: 35px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .login-cutomer-icon {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_thongtintk.svg) no-repeat center center;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .cart-top .shopping-cart-icon {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_shopping_cart_white.svg) no-repeat center center;
+                        background-size: 25px;
+                    }
+                    
+                    .cart-number-mobile {
+                        width: 25px;
+                        background: #2ED62E;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        border-radius: 10px;
+                        vertical-align: top;
+                        position: absolute;
+                        top: -2px;
+                        left: 16px;
+                    }
+                    
+                    @media screen and (max-width: 1024px) and (min-width: 992px) {
+                        .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) {
+                            width: calc(100% - 530px);
+                        }
+                    }
+                    
+                    @media screen and (min-width: 992px) {
+                        .custom-menu-homepage {
+                            padding-top: 15px;
+                        }
+                        .custom-menu-homepage2 {
+                            padding-top: 15px;
+                            display: block;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 992px) {
+                        .fhs-header_desktop {
+                            display: none;
+                        }
+                        .fhs-header_mobile {
+                            display: block;
+                        }
+                        .background-menu-homepage {
+                            padding-top: 10px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 775px) {
+                        .container {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                    }
+                </style>
+                <div class="Banner_Main">
+                    <a rel="noreferrer" tilte="https://kinhvanbong.vn/chuongtrinh/visa-30k" href="http://google.com.vn" target="_blank" class="visible-lg visible-md">
+                        <div class="top-bar" style="height: 50px; background-repeat: no-repeat; background-position: center center; background-size: auto 50px; background-image: url(&quot;https://salt.tikicdn.com/ts/banner/b0/5d/a8/91e8361788f5d3f554a67827711224dd.jpg&quot;), linear-gradient(to right, rgb(0, 82, 255) 40%, rgb(0, 82, 255) 50%, rgb(0, 82, 255) 60%);"></div>
+                    </a>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <form class="visible-xs-inline-block" style="margin-top:10px">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </form>
+                            <a class="navbar-brand" href="#">Kính Vạn Bông 
+                                       
+                                    </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                            <form class="navbar-form navbar-left hidden-xs">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">
+                                        <span class="badge pull-right">4</span>
+                                        <i class="glyphicon glyphicon-shopping-cart"></i>
+                                    </a>
+                                </li>
+                                <li><a href="account.html"><i class="glyphicon glyphicon-user"></i></a></li>
+                                <li><a href="#" data-toggle="modal" datatarget="#myModal">Sign 
+                    in</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.container class with content as the id-->
+
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+
+                    <!-- /.container-fluid -->
+                </nav>
+
+            </section>
+
+            <main>
+                <div class="row">
+                    <div class="col-sm-4 col-md-3">
+                        <h3>DANH MỤC SẢN PHẨM</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">14</span> SÁCH TRONG NƯỚC
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> SÁCH TRONG NƯỚC
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> SÁCH NƯỚC NGOÀI
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> VPP-Dụng cụ học sinh
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> ĐỒ CHƠI
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> LÀM ĐẸP - SỨC KHỎE
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">14</span> HÀNH TRANG TỚI TRƯỜNG
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8 col-md-9">
+
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="http://placehold.it/1120x350" alt="...">
+                                    <div class="carousel-caption">
+                                        ...
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="http://placehold.it/1130x350" alt="...">
+                                    <div class="carousel-caption">
+                                        ...
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="http://placehold.it/1140x350" alt="...">
+                                    <div class="carousel-caption">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="main-container col1-layout no-margin-top">
+                    <div class="main">
+                        <div class="margin-bottom: 5px;">
+                            <div class="containe-a" style="background-color : transparent!important;">
+                            </div>
+                        </div>
+                        <div class="col-main">
+                            <div class="container-a">
+                                <div class="container-inner" style=" width: 1230px; margin-left: -30px;">
+
+                                    <div class="std">
+                                        <style>
+                                            .cms-icon-menu {
+                                                padding: 15px 0px !important;
+                                            }
+                                            
+                                            .cms-icon-menu {
+                                                margin: 15px 0px 0px 0px;
+                                                background-color: #fff;
+                                                padding: 20px;
+                                                text-align: center;
+                                            }
+                                            
+                                            @media only screen and (min-width: 768px) {
+                                                .cms-icon-menu .col-md-3 {
+                                                    width: 10%;
+                                                    margin: 0px;
+                                                    padding: 0px;
+                                                }
+                                                .cms-icon-menu .cms-icon-menu-item-name {
+                                                    padding: 10px 5px;
+                                                }
+                                            }
+                                            
+                                            @media only screen and (max-width: 768px) {
+                                                .cms-icon-menu .col-sms-3 {
+                                                    width: 20% !important;
+                                                    margin: 0px;
+                                                    padding: 0px;
+                                                }
+                                                .cms-icon-menu .col-sms-3 img {
+                                                    width: 50%;
+                                                }
+                                            }
+                                        </style>
+                                        <div class="row cms-icon-menu">
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/flashsale"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_flashsale@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Flash Sale</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/deal-hot-pages"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_dealhot@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Deal Hot</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/fahasa-book-award"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_BXH2@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Bảng Xếp Hạng</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/daily-suggestion"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_goiy@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Gợi Ý Cho Bạn</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/cua-tiem-giac-mo-do-choi"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_dochoi@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Đồ Chơi</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/balo"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_vpp@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Văn Phòng Phẩm</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/sach-trong-nuoc/van-hoc-trong-nuoc.html"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_vanhoc@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Văn Học</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/sach-trong-nuoc/thieu-nhi.html"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_thieunhi@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Thiếu Nhi</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/sach-trong-nuoc/tam-ly-ky-nang-song.html"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_tamly@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Tâm Lý Kỹ Năng</div>
+                                            </div>
+                                            <div class="col-sms-3 col-sm-3 col-md-3">
+                                                <div>
+                                                    <a href="/sach-trong-nuoc/kinh-te-chinh-tri-phap-ly.html"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_kinhte@3x.png" class="center"></a>
+                                                </div>
+                                                <div class="cms-icon-menu-item-name">Kinh Tế</div>
+                                            </div>
+                                        </div>
+
+                                        <div id="flashsale-slider" class="row" style="margin: 20px 0px 0px; padding: 0px; display: block;">
+                                            <div class="flashsale-header">
+                                                <a href="/flashsale">
+                                                    <img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/ico_flashsale@3x.png" style="width: 25px; height: 25px;margin-left: 10px;">
+                                                    <span class="flashsale-header-title">FLASH SALE</span>
+                                                </a>
+                                                <span>
+                                                        <div class="split"></div>
+                                                    </span>
+                                                <span style="" class="flashsale-page-countdown-label">Kết Thúc Trong</span>
+                                                <div class="flashsale-page-countdown">
+                                                    <div class="flashsale-countdown">
+                                                        <span class="flashsale-countdown-number">00</span>
+                                                        <span>:</span>
+                                                        <span class="flashsale-countdown-number">16</span>
+                                                        <span>:</span>
+                                                        <span class="flashsale-countdown-number">23</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 fhs-full-p">
+                                                <div class="flashsale-body">
+                                                    <div class="bx-wrapper" style="max-width: 1845px;">
+                                                        <div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 330px;">
+                                                            <ul class="flashsale-list" style="width: 10215%; position: relative; transition-duration: 0s; transform: translate3d(-19.5px, 0px, 0px);">
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg" width="200" height="200"
+                                                                                                    alt="Siêu Trí Nhớ"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">Siêu Trí Nhớ</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">71.280đ</div>
+                                                                                <div class="flashsale-price-old">99.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 0</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">25%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                                                    width="200" height="200" alt="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">82.500đ</div>
+                                                                                <div class="flashsale-price-old">110.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">23%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg" width="200" height="200"
+                                                                                                    alt="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">168.630đ</div>
+                                                                                <div class="flashsale-price-old">219.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 5</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 9.803921568627452%;" aria-valuenow="9.803921568627452" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">32%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                                                    width="200" height="200" alt="Phù Thủy Trắng Định Tội - Tập 1"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">Phù Thủy Trắng Định Tội - Tập 1</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">66.640đ</div>
+                                                                                <div class="flashsale-price-old">98.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 12.698412698412698%;" aria-valuenow="12.698412698412698" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">34%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg" width="200" height="200"
+                                                                                                    alt="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">19.041đ</div>
+                                                                                <div class="flashsale-price-old">29.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 3</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 7.142857142857142%;" aria-valuenow="7.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">34%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg" width="200" height="200"
+                                                                                                    alt="Why? Bố Mẹ Ơi Tại Sao …?"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">Why? Bố Mẹ Ơi Tại Sao …?</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">91.267đ</div>
+                                                                                <div class="flashsale-price-old">139.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">31%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg" width="200"
+                                                                                                    height="200" alt="The Mind Monster Solution"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">The Mind Monster Solution</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">161.460đ</div>
+                                                                                <div class="flashsale-price-old">234.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 12</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 17.142857142857142%;" aria-valuenow="17.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg" width="200" height="200"
+                                                                                                    alt="Film Book - Khi Chúng Ta Là Nhân Vật Chính"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">Film Book - Khi Chúng Ta Là Nhân Vật Chính</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">91.590đ</div>
+                                                                                <div class="flashsale-price-old">129.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                                                    width="200" height="200" alt="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">Em Sẽ Say Ngủ Vào Một Ngày Nào Đó</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">63.190đ</div>
+                                                                                <div class="flashsale-price-old">89.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 10</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 14.285714285714285%;" aria-valuenow="14.285714285714285" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="lazyload flashsale-item-image" src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ring_loader.gif" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_10685.jpg"
+                                                                                                    width="200" height="200" alt="Siêu Tăng Trưởng"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">Siêu Tăng Trưởng</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">112.890đ</div>
+                                                                                <div class="flashsale-price-old">159.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 7</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.76923076923077%;" aria-valuenow="10.76923076923077" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <div class="bx-controls bx-has-controls-direction bx-has-pager">
+                                                            <div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div>
+                                                            <div class="bx-pager bx-default-pager">
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="flashsale-body">
+                                                    <div class="bx-wrapper" style="max-width: 1845px;">
+                                                        <div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 330px;">
+                                                            <ul class="flashsale-list" style="width: 10215%; position: relative; transition-duration: 0s; transform: translate3d(-19.5px, 0px, 0px);">
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg" width="200" height="200"
+                                                                                                    alt="Siêu Trí Nhớ"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">Siêu Trí Nhớ</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">71.280đ</div>
+                                                                                <div class="flashsale-price-old">99.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 0</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">25%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                                                    width="200" height="200" alt="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">82.500đ</div>
+                                                                                <div class="flashsale-price-old">110.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">23%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg" width="200" height="200"
+                                                                                                    alt="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">168.630đ</div>
+                                                                                <div class="flashsale-price-old">219.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 5</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 9.803921568627452%;" aria-valuenow="9.803921568627452" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">32%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                                                    width="200" height="200" alt="Phù Thủy Trắng Định Tội - Tập 1"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">Phù Thủy Trắng Định Tội - Tập 1</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">66.640đ</div>
+                                                                                <div class="flashsale-price-old">98.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 12.698412698412698%;" aria-valuenow="12.698412698412698" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">34%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg" width="200" height="200"
+                                                                                                    alt="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">19.041đ</div>
+                                                                                <div class="flashsale-price-old">29.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 3</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 7.142857142857142%;" aria-valuenow="7.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">34%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg" width="200" height="200"
+                                                                                                    alt="Why? Bố Mẹ Ơi Tại Sao …?"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">Why? Bố Mẹ Ơi Tại Sao …?</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">91.267đ</div>
+                                                                                <div class="flashsale-price-old">139.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">31%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg" width="200"
+                                                                                                    height="200" alt="The Mind Monster Solution"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">The Mind Monster Solution</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">161.460đ</div>
+                                                                                <div class="flashsale-price-old">234.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 12</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 17.142857142857142%;" aria-valuenow="17.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg" width="200" height="200"
+                                                                                                    alt="Film Book - Khi Chúng Ta Là Nhân Vật Chính"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">Film Book - Khi Chúng Ta Là Nhân Vật Chính</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">91.590đ</div>
+                                                                                <div class="flashsale-price-old">129.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                                                    data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                                                    width="200" height="200" alt="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">Em Sẽ Say Ngủ Vào Một Ngày Nào Đó</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">63.190đ</div>
+                                                                                <div class="flashsale-price-old">89.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 10</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 14.285714285714285%;" aria-valuenow="14.285714285714285" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                    <div class="" style="position: relative;">
+                                                                        <div class="new-label-pro-sale"><span class="new-p-sale-label discount-l-fs">28%</span></div>
+                                                                        <div class="ma-box-content">
+                                                                            <div class="products clearfix" style="height:203px; ">
+                                                                                <div class="product images-container">
+                                                                                    <a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">
+                                                                                        <div class="product-image">
+                                                                                            <div class="flashsale-image-container"><img class="lazyload flashsale-item-image" src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ring_loader.gif" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_10685.jpg"
+                                                                                                    width="200" height="200" alt="Siêu Tăng Trưởng"></div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">Siêu Tăng Trưởng</a></h2>
+                                                                            <div class="flashsale-price">
+                                                                                <div class="flashsale-price-special">112.890đ</div>
+                                                                                <div class="flashsale-price-old">159.000đ</div>
+                                                                            </div>
+                                                                            <div class="progress"><span class="progress-value">Đã Bán 7</span>
+                                                                                <div class="progress-bar" role="progressbar" style="width: 10.76923076923077%;" aria-valuenow="10.76923076923077" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <div class="bx-controls bx-has-controls-direction bx-has-pager">
+                                                            <div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div>
+                                                            <div class="bx-pager bx-default-pager">
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                                                <div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-xem-them xem-them-item-aaa">
+                                                        <a href="flashsale">Xem Thêm</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="flashsale-slider" class="row" style="margin: 20px 0px 0px; padding: 0px; display: block;">
+                                            <div class="sanpham-header">
+                                                <a href="/flashsale">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png" style="width: 25px; height: 25px;margin-left: 10px;">
+                                                    <span class="sanpham-header-title">SÁCH TRONG NƯỚC</span>
+                                                </a>
+                                                <span>
+                                                        <div class="split"></div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 fhs-full-p">
+                                                    <div class="flashsale-body">
+                                                        <div class="bx-wrapper" style="max-width: 1845px;">
+                                                            <div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 330px;">
+                                                                <ul class="flashsale-list" style="width: 10215%; position: relative; transition-duration: 0s; transform: translate3d(-19.5px, 0px, 0px);">
+                                                                    <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                                                        <div class="" style="position: relative;">
+                                                                           
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg"
+                                                                            width="200" height="200" alt="Siêu Trí Nhớ"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">Siêu Trí Nhớ</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">99.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 0</span>
+                                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                        data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg" width="200" height="200" alt="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">110.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg"
+                                                                        width="200" height="200" alt="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">219.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 5</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 9.803921568627452%;" aria-valuenow="9.803921568627452" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                        data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg" width="200" height="200"
+                                                                        alt="Phù Thủy Trắng Định Tội - Tập 1"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">Phù Thủy Trắng Định Tội - Tập 1</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">98.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 12.698412698412698%;" aria-valuenow="12.698412698412698" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg"
+                                                                        width="200" height="200" alt="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">29.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 3</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 7.142857142857142%;" aria-valuenow="7.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg"
+                                                                        width="200" height="200" alt="Why? Bố Mẹ Ơi Tại Sao …?"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">Why? Bố Mẹ Ơi Tại Sao …?</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">139.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg"
+                                                                        data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg" width="200" height="200" alt="The Mind Monster Solution"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">The Mind Monster Solution</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">234.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 12</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 17.142857142857142%;" aria-valuenow="17.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg"
+                                                                        width="200" height="200" alt="Film Book - Khi Chúng Ta Là Nhân Vật Chính"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">Film Book - Khi Chúng Ta Là Nhân Vật Chính</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">129.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                        data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg" width="200" height="200"
+                                                                        alt="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">Em Sẽ Say Ngủ Vào Một Ngày Nào Đó</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">89.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 10</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 14.285714285714285%;" aria-valuenow="14.285714285714285" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                        <div class="" style="position: relative;">
+
+                                            <div class="ma-box-content">
+                                                <div class="products clearfix" style="height:203px; ">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">
+                                                            <div class="product-image">
+                                                                <div class="flashsale-image-container"><img class="lazyload flashsale-item-image" src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ring_loader.gif" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_10685.jpg"
+                                                                        width="200" height="200" alt="Siêu Tăng Trưởng"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">Siêu Tăng Trưởng</a></h2>
+                                                <div class="flashsale-price">
+                                                    <div class="sanphamprice">159.000đ</div>
+                                                </div>
+                                                <div class="progress"><span class="progress-value">Đã Bán 7</span>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10.76923076923077%;" aria-valuenow="10.76923076923077" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </ul>
+
+                                </div>
+                                <div class="bx-controls bx-has-controls-direction bx-has-pager">
+                                    <div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div>
+                                    <div class="bx-pager bx-default-pager">
+                                        <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                        <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                        <div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="flashsale-body">
+                            <div class="bx-wrapper" style="max-width: 1845px;">
+                                <div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 330px;">
+                                    <ul class="flashsale-list" style="width: 10215%; position: relative; transition-duration: 0s; transform: translate3d(-19.5px, 0px, 0px);">
+                                        <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_179061.jpg"
+                                                                            width="200" height="200" alt="Siêu Trí Nhớ"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tri-nho.html" title="Siêu Trí Nhớ">Siêu Trí Nhớ</a></h2>
+                                                    <div class="flashsale-price">
+
+                                                        <div class="sanphamprice">99.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 0</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                            data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg" width="200" height="200"
+                                                                            alt="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)">Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class=sanphamprice>110.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_175199.jpg"
+                                                                            width="200" height="200" alt="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/an-dam-khong-phai-la-cuoc-chien-tai-ban-2018.html" title="Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)">Ăn Dặm Không Phải Là Cuộc Chiến (Tái Bản 2018)</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">219.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 5</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 9.803921568627452%;" aria-valuenow="9.803921568627452" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="false" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg"
+                                                                            data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/6/b600c755b226c5c3a64805b52d447dad.jpg" width="200" height="200"
+                                                                            alt="Phù Thủy Trắng Định Tội - Tập 1"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/phu-thuy-trang-dinh-toi-tap-1.html" title="Phù Thủy Trắng Định Tội - Tập 1">Phù Thủy Trắng Định Tội - Tập 1</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">98.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 12.698412698412698%;" aria-valuenow="12.698412698412698" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195500.jpg"
+                                                                            width="200" height="200" alt="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/my-big-ocean-con-to-mau-cam-xuc-dai-duong.html" title="My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương">My Big Ocean - Con Tô Màu Cảm Xúc Đại Dương</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">29.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 3</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 7.142857142857142%;" aria-valuenow="7.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_192342.jpg"
+                                                                            width="200" height="200" alt="Why? Bố Mẹ Ơi Tại Sao …?"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/why-bo-me-oi-tai-sao.html" title="Why? Bố Mẹ Ơi Tại Sao …?">Why? Bố Mẹ Ơi Tại Sao …?</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">139.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg"
+                                                                            data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_18607.jpg" width="200" height="200" alt="The Mind Monster Solution"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/the-mind-monster-solution.html" title="The Mind Monster Solution">The Mind Monster Solution</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="sanphamprice">234.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 12</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 17.142857142857142%;" aria-valuenow="17.142857142857142" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/9/7/9786047740826.jpg"
+                                                                            width="200" height="200" alt="Film Book - Khi Chúng Ta Là Nhân Vật Chính"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/film-book-khi-chung-ta-la-nhan-vat-chinh.html" title="Film Book - Khi Chúng Ta Là Nhân Vật Chính">Film Book - Khi Chúng Ta Là Nhân Vật Chính</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="flashsale-price-special">91.590đ</div>
+                                                        <div class="flashsale-price-old">129.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 8</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 10.526315789473683%;" aria-valuenow="10.526315789473683" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="flashsale-item-image lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg"
+                                                                            data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/_/b_a1-em-s_-say-ng_-v_o-1-ng_y-n_o-_.jpg" width="200" height="200"
+                                                                            alt="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/em-se-say-ngu-vao-mot-ngay-nao-do.html" title="Em Sẽ Say Ngủ Vào Một Ngày Nào Đó">Em Sẽ Say Ngủ Vào Một Ngày Nào Đó</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="flashsale-price-special">63.190đ</div>
+                                                        <div class="flashsale-price-old">89.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 10</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 14.285714285714285%;" aria-valuenow="14.285714285714285" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item flashsale-item item-inner" aria-hidden="true" style="left:10px;float: left; list-style: none; position: relative; width: 270px; margin-right: 45px;">
+                                            <div class="" style="position: relative;">
+
+                                                <div class="ma-box-content">
+                                                    <div class="products clearfix" style="height:203px; ">
+                                                        <div class="product images-container">
+                                                            <a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">
+                                                                <div class="product-image">
+                                                                    <div class="flashsale-image-container"><img class="lazyload flashsale-item-image" src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ring_loader.gif" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_10685.jpg"
+                                                                            width="200" height="200" alt="Siêu Tăng Trưởng"></div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/sieu-tang-truong.html" title="Siêu Tăng Trưởng">Siêu Tăng Trưởng</a></h2>
+                                                    <div class="flashsale-price">
+                                                        <div class="flashsale-price-special">112.890đ</div>
+                                                        <div class="flashsale-price-old">159.000đ</div>
+                                                    </div>
+                                                    <div class="progress"><span class="progress-value">Đã Bán 7</span>
+                                                        <div class="progress-bar" role="progressbar" style="width: 10.76923076923077%;" aria-valuenow="10.76923076923077" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="bx-controls bx-has-controls-direction bx-has-pager">
+                                    <div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div>
+                                    <div class="bx-pager bx-default-pager">
+                                        <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                        <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                        <div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-xem-them xem-them-item-aaa">
+                                <a href="flashsale">Xem Thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    const FS_URL = "/node_api/flashsale/slider";
+                    const FS_BASE_SKIN_URL = "https://cdn0.fahasa.com/skin/";
+
+                    const FS_TEXT_LABELS = {
+                        'da_ban': "Đã Bán",
+                        'dang_ban': "Đang Bán",
+                        'sap_ban': "Sắp Bán",
+                        'ngay_mai': "Ngày Mai",
+                        'ket_thuc': "Kết Thúc Trong",
+                        'bat_dau': "Bắt Đầu Trong",
+                        'sap_mo': "Sắp Mở Bán",
+                    }
+
+                    const IS_MOBILE = "";
+                    var flashsale = new FlashSale();
+
+                    if (IS_MOBILE) {
+                        flashsale.initMobileSlider(FS_URL, FS_TEXT_LABELS, FS_BASE_SKIN_URL);
+                    } else {
+                        flashsale.initSlider(FS_URL, FS_TEXT_LABELS, FS_BASE_SKIN_URL);
+                    }
+                </script>
+
+
+                </div>
+
+                </div>
+                </div>
+                </div>
+                </div>
+
+                <style type="text/css">
+                    .fhs-asidebar {
+                        position: fixed;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: 999;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: flex-start;
+                        -webkit-align-items: flex-start;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                    }
+                    
+                    .fhs-asidebar-tab {
+                        position: absolute;
+                        width: 40px;
+                        top: 22vh;
+                        left: 0;
+                        z-index: 1;
+                        -webkit-transform: translate(-100%, 0);
+                        -ms-transform: translate(-100%, 0);
+                        -moz-transform: translate(-100%, 0);
+                        transform: translate(-100%, 0);
+                    }
+                    
+                    .fhs-asidebar-tab-items {
+                        padding: 0 !important;
+                    }
+                    
+                    .fhs-asidebar-tab-items>li>.icon {
+                        padding: 8px 0;
+                    }
+                    
+                    .fhs-asidebar-tab-items>li>.title {
+                        overflow: hidden;
+                        -webkit-transform: rotate(90deg);
+                        -moz-transform: rotate(90deg);
+                        -ms-transform: rotate(90deg);
+                        -o-transform: rotate(90deg);
+                        transform: rotate(90deg);
+                        color: white;
+                        width: 150px;
+                        margin-top: 69px;
+                    }
+                    
+                    .fhs-asidebar-tab-items>li {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: column;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        background-color: #6c6c78;
+                        padding: 8px 0;
+                        position: relative;
+                        cursor: pointer;
+                        user-select: none;
+                    }
+                    
+                    .fhs-asidebar-tab-items>li:hover {
+                        background-color: #F39801;
+                    }
+                    
+                    .fhs-asidebar-content {
+                        width: 0;
+                        -webkit-transition: all .1s;
+                        transition: all .1s;
+                        background-color: white;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    
+                    .fhs-asidebar.active>.fhs-asidebar-content {
+                        -webkit-box-shadow: 0 0 10px 2px #6c6c78;
+                        -moz-box-shadow: 0 0 10px 2px #6c6c78;
+                        box-shadow: 0 0 10px 2px #6c6c78;
+                        width: 400px;
+                    }
+                    
+                    .fhs-asidebar-tab-items>li.productviewed {
+                        height: 175px;
+                    }
+                    
+                    .fhs-asidebar-content-productviewed {
+                        height: 100%;
+                    }
+                    
+                    .fhs-asidebar-content-productviewed .fhs-product-grid-content {
+                        height: calc(100% - 80px);
+                        overflow-y: scroll;
+                        align-items: flex-start !important;
+                        -webkit-align-items: flex-start !important;
+                        -webkit-justify-content: flex-start !important;
+                        justify-content: flex-start !important;
+                    }
+                    
+                    .fhs-product-grid-content {
+                        /* padding: 16px 0; */
+                        background-color: white;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-product-grid-list {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        padding-left: 0 !important;
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                    
+                    .fhs-product-grid-list>li>.item-inner .ratings {
+                        display: block !important;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                    }
+                    
+                    .fhs-asidebar-content-productviewed-bottom {
+                        height: 80px;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: column;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-asidebar-content-productviewed-bottom button {
+                        display: flex;
+                        justify-content: center;
+                        color: #F39801;
+                        border: 2px solid #F39801;
+                        padding: 6px;
+                        width: 160px;
+                        font-size: 1em;
+                        font-weight: 700;
+                        transition: all 0.3s;
+                        box-shadow: 0px 4px 6px hsl(0, 0%, 90%);
+                        -moz-box-shadow: 0px 4px 6px hsl(0, 0%, 90%);
+                        -webkit-box-shadow: 0px 4px 6px hsl(0, 0%, 90%);
+                        border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        -webkit-border-radius: 20px;
+                        text-transform: uppercase;
+                        transition: all 0.3s;
+                    }
+                    
+                    .fhs-asidebar-content-productviewed-bottom button:hover {
+                        box-shadow: 0px 6px 8px hsl(0, 0%, 90%);
+                        -moz-box-shadow: 0px 6px 8px hsl(0, 0%, 90%);
+                        -webkit-box-shadow: 0px 6px 8px hsl(0, 0%, 90%);
+                        transform: scale(1.03);
+                    }
+                    /* width */
+                    
+                    .fhs-asidebar-content-productviewed .fhs-product-grid-content::-webkit-scrollbar {
+                        width: 18px;
+                    }
+                    /* Track */
+                    
+                    .fhs-asidebar-content-productviewed .fhs-product-grid-content::-webkit-scrollbar-track {
+                        background-color: #fff;
+                    }
+                    /* Handle */
+                    
+                    .fhs-asidebar-content-productviewed .fhs-product-grid-content::-webkit-scrollbar-thumb {
+                        background: #fed89a;
+                        border-radius: 10px;
+                        border: 4px solid #fff;
+                    }
+                    /* Handle on hover */
+                    
+                    .fhs-asidebar-content-productviewed .fhs-product-grid-content::-webkit-scrollbar-thumb:hover {
+                        background: #ffe2b3;
+                    }
+                    
+                    .ma-box-content {
+                        padding: 0.8em;
+                        display: block;
+                    }
+                    
+                    .ma-box-content .products {
+                        margin: 0 0 10px;
+                        display: block;
+                    }
+                    
+                    @media screen and (max-width: 1000px) {
+                        .fhs-asidebar {
+                            display: none;
+                        }
+                    }
+                </style>
+
+                <div class="fhs-asidebar">
+                    <div class="fhs-asidebar-tab">
+                        <ul class="fhs-asidebar-tab-items">
+                            <li class="productviewed">
+                                <span class="icon"><img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_daxem.svg?q=5160"></span>
+                                <span class="title">Sản phẩm đã xem</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fhs-asidebar-content">
+                        <div class="fhs-asidebar-content-item fhs-asidebar-content-productviewed">
+                            <div class="fhs-product-grid-content">
+                                <ul id="products_viewed_aside" class="fhs-product-grid-list">
+                                    <li>
+                                        <div class="item-inner">
+                                            <div class="m-label-pro-sale label-pro-sale"><span class="p-sale-label m-discount-l-fs">25%</span></div>
+                                            <div class="ma-box-content">
+                                                <div class="products clear">
+                                                    <div class="product images-container">
+                                                        <a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)" class="product-image">
+                                                            <div class="product-image"><img class=" lazyloaded" src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg" data-src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+                                                                    alt="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)"></div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-name-no-ellipsis"><a href="https://www.fahasa.com/nghi-giau-lam-giau-tai-ban-2020.html" title="Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)" class="product-image">Nghĩ Giàu &amp; Làm Giàu (Tái Bản 2020)</a></h2>
+                                                <div class="price-label">
+                                                    <p class="special-price"><span class="price m-price-font">82.500&nbsp;đ</span></p>
+                                                    <p class="old-price"><span class="price">110.000đ</span></p>
+                                                </div>
+                                                <div class="fhs-rating-container">
+                                                    <div class="ratings">
+                                                        <div class="rating-box">
+                                                            <div class="rating" style="width:93%"></div>
+                                                        </div>
+                                                        <div class="amount">(6)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fhs-asidebar-content-productviewed-bottom">
+                                <a href="/productviewed">
+                                    <button type="button" is_buynow="true" class="">
+                                    <span>Xem thêm</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript" src="https://cdn0.fahasa.com/js/lib/product_viewed.js?q=5160"></script>
+                <script type="text/javascript">
+                    var product_viewed_slider = new ProductViewed();
+                    product_viewed_slider.initProductViewedPage(false, 12);
+                </script>
+                <script type="text/javascript">
+                    $jq('.fhs-asidebar-tab-items li').click(function() {
+                        if ($jq(".fhs-asidebar").hasClass('active')) {
+                            $jq(".fhs-asidebar").removeClass('active');
+                        } else {
+                            $jq(".fhs-asidebar").addClass('active');
+                        }
+                    });
+                    $jq(document).on('click', function(e) {
+                        if ($jq(e.target).closest(".fhs-asidebar").length === 0) {
+                            $jq(".fhs-asidebar").removeClass('active');
+                        }
+                    });
+                </script>
+            </main>
+            <footer class="page-footer font-small blue pt-4">
+
+                <!-- Footer Links -->
+                <div class="container-fluid text-center text-md-left">
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+
+                            <!-- Content -->
+                            <h5 class="text-uppercase">KÍNH VẠN BÔNG</h5>
+                            <p>
+                                <a rel="noreferrer " href="REVIEW.html" class="icon " target="_blank " title="Facebook "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/fb.svg " width="32 " alt=" "></a>
+                                <a rel="noreferrer " href="https://www.youtube.com/user/TikiVBlog " class="icon " target="_blank " title="Youtube "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/youtube.svg " width="32
+                                                " alt=" "></a><a rel="noreferrer " href="http://zalo.me/589673439383195103 " class="icon " target="_blank " title="Zalo "><i class="icon kvbicon icon-footer-zalo "></i></a></p>
+                            <h4 class="store-title ">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h4>
+                            <p>
+                                <a rel="noreferrer " href="https://itunes.apple.com/vn/app/id958100553 " class="icon " target="_blank " aria-label=" "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/appstore.png " width="134
+                                                " alt=" "></a>
+                                <a rel="noreferrer " href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid " class="icon " target="_blank " aria-label=" "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/playstore.png
+                                                " width="134 " alt=" "></a>
+                            </p>
+                            <h4>PHƯƠNG THỨC THANH TOÁN</h4>
+                            <p><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/visa.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/mastercard.svg
+                                                " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/jcb.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/cash.svg
+                                                " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/internet-banking.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/installment.svg "
+                                    width="54 " alt=" "></p>
+                            <p></p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="clearfix w-100 d-md-none pb-3">
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Dịch vụ</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Điều khoản sử dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Chính sách bảo mật</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Giới thiệu Kính Vạn Bông</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Hệ thống trung tâm nhà sách</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Hỗ trợ</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Chính sách đổi trả - hoàn tiền</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Chính sách khách sỉ</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Phương thức vận chuyển</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Phương thức thanh toán</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+</body>

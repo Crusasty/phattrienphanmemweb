@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Hompage.CSS">
+    <link href="doan.css" rel="stylesheet" />
+    <link href="Main.css" rel="stylesheet" />
+    <link href="psedu.css" rel="stylesheet" />
+    <link href="Resposive_mobile.css" rel="stylesheet" />
+    <link href="Mid.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div id="root">
+        <div class="home-page">
+            <section id="header" class="header">
+                <style type="text/css">
+                    #ves-verticalmenu {
+                        right: 0px;
+                    }
+                    
+                    #header .header1 #ves-mainnav .navbar-toggle {
+                        left: 0px;
+                    }
+                    
+                    .custom-menu-homepage .col-md-3 {
+                        padding-right: 0px;
+                    }
+                    
+                    .custom-menu-none-homepage .col-md-3 {
+                        padding-right: 15px;
+                        padding-left: 0px;
+                    }
+                    
+                    .custom-menu-homepage2 .col-md-3 {
+                        background-color: white;
+                        padding-left: 0px;
+                    }
+                    
+                    .header-link-left-custom {
+                        margin-top: 5px;
+                    }
+                    
+                    .custom-menu-none-homepage {
+                        display: flex;
+                        background-color: white;
+                    }
+                    
+                    .background-menu-homepage {
+                        background-color: #F0F0F0;
+                    }
+                    
+                    .fhs-header_mobile {
+                        display: none;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 0 0 5px 0;
+                        background-color: white;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar>div:first-of-type {
+                        width: 40%;
+                    }
+                    
+                    .fhs-header_desktop>.container {
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-bar>div:last-of-type {
+                        width: 60%;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-end;
+                        justify-content: flex-end;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 0 0 5px 0;
+                        background-color: white;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:first-of-type {
+                        width: 209px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:first-of-type a.logo {
+                        width: 104% !important;
+                        margin-top: 3px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) {
+                        width: calc(100% - 500px);
+                        margin: 6px 0 0 30px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3) {
+                        width: 325px;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: space-between;
+                        justify-content: space-between;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search {
+                        position: relative;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search>input {
+                        height: 43px;
+                        border: 2px solid #F7941E;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .form-search>span {
+                        position: absolute;
+                        top: calc(50% - 2px);
+                        right: 0;
+                        -webkit-transform: translate(0, -50%);
+                        -ms-transform: translate(0, -50%);
+                        -moz-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                        color: #F7941E;
+                        border: 0;
+                        font-size: 21px;
+                        text-align: center;
+                        z-index: 3;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .search_box .input-search {
+                        font-size: 1.1em;
+                        border: 2px solid #F7941E;
+                        -webkit-appearance: none;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) .search {
+                        width: 100%;
+                        padding-right: 16px;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3) .noti-top {
+                        margin-top: 8px;
+                        position: relative;
+                    }
+                    
+                    .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(3)>.cart-top {
+                        padding-left: 5px;
+                        position: relative;
+                        margin-top: -10px;
+                    }
+                    
+                    .fhs-header_mobile {
+                        background-color: #F7941E;
+                        height: 93.4px;
+                    }
+                    
+                    .fhs-header_mobile>.fhs-logo img {
+                        max-width: 130px;
+                        max-height: 30px;
+                        margin-top: 5px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        padding: 5px 4px 5px 4px;
+                    }
+                    
+                    #ves-mainnav {
+                        margin-top: 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:first-of-type {
+                        text-align: center;
+                        width: 40px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) {
+                        width: calc(100% - 104px);
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type {
+                        width: 58px;
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.holded {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        height: 60px;
+                        background-color: #F7941E;
+                        z-index: 999;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.logined>div:nth-of-type(2) {
+                        width: calc(100% - 156px);
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar.logined>div:last-of-type {
+                        width: 108px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type>div {
+                        padding: 0 3px;
+                    }
+                    
+                    .fhs-header_mobile .ves-verticalmenu.offcanvas-actived>.block-content {
+                        display: block !important;
+                        visibility: visible !important;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar {
+                        display: flex;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: row;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar-toggle {
+                        border: 0;
+                        margin: 0;
+                        background: none!important;
+                    }
+                    
+                    .fhs-header_mobile #ves-mainnav .navbar-toggle .icon-bar {
+                        height: 3px;
+                        width: 18px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .ves-autosearch {
+                        margin-left: 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) input {
+                        height: 33px;
+                        border: 1px solid #F7941E;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .form-search {
+                        padding: 8px 0;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:nth-of-type(2) .form-search>span {
+                        display: none;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .top-notification-button #icon-nofi {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_notif.svg) no-repeat center center;
+                        background-size: 20px;
+                        width: 30px;
+                        height: 35px;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .login-cutomer-icon {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_thongtintk.svg) no-repeat center center;
+                    }
+                    
+                    .fhs-header_mobile .fhs-header-top-bar>div:last-of-type .cart-top .shopping-cart-icon {
+                        background: url(https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_shopping_cart_white.svg) no-repeat center center;
+                        background-size: 25px;
+                    }
+                    
+                    .cart-number-mobile {
+                        width: 25px;
+                        background: #2ED62E;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        border-radius: 10px;
+                        vertical-align: top;
+                        position: absolute;
+                        top: -2px;
+                        left: 16px;
+                    }
+                    
+                    @media screen and (max-width: 1024px) and (min-width: 992px) {
+                        .fhs-header_desktop .fhs-header-top-second-bar>div:nth-of-type(2) {
+                            width: calc(100% - 530px);
+                        }
+                    }
+                    
+                    @media screen and (min-width: 992px) {
+                        .custom-menu-homepage {
+                            padding-top: 15px;
+                        }
+                        .custom-menu-homepage2 {
+                            padding-top: 15px;
+                            display: block;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 992px) {
+                        .fhs-header_desktop {
+                            display: none;
+                        }
+                        .fhs-header_mobile {
+                            display: block;
+                        }
+                        .background-menu-homepage {
+                            padding-top: 10px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 775px) {
+                        .container {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                    }
+                </style>
+                <div class="Banner_Main">
+                    <a rel="noreferrer" tilte="https://kinhvanbong.vn/chuongtrinh/visa-30k" href="http://google.com.vn" target="_blank" class="visible-lg visible-md">
+                        <div class="top-bar" style="height: 50px; background-repeat: no-repeat; background-position: center center; background-size: auto 50px; background-image: url(&quot;https://salt.tikicdn.com/ts/banner/b0/5d/a8/91e8361788f5d3f554a67827711224dd.jpg&quot;), linear-gradient(to right, rgb(0, 82, 255) 40%, rgb(0, 82, 255) 50%, rgb(0, 82, 255) 60%);"></div>
+                    </a>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <form class="visible-xs-inline-block" style="margin-top:10px">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </form>
+                            <a class="navbar-brand" href="#">Kính Vạn Bông 
+                                       
+                                    </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                            <form class="navbar-form navbar-left hidden-xs">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">
+                                        <span class="badge pull-right">4</span>
+                                        <i class="glyphicon glyphicon-shopping-cart"></i>
+                                    </a>
+                                </li>
+                                <li><a href="account.html"><i class="glyphicon glyphicon-user"></i></a></li>
+                                <li><a href="#" data-toggle="modal" datatarget="#myModal">Sign 
+                    in</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.container class with content as the id-->
+
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+
+                    <!-- /.container-fluid -->
+                </nav>
+
+            </section>
+
+
+
+
+
+            <main>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" title="Trang chủ"> TRANG CHỦ</a></li>
+                        <li><a href="#" title=" GIỚI THIỆU"> GIỚI THIỆU</a></li>
+                        <li><a href="#" title="TIN TỨC"> TIN TỨC</a></li>
+                        <li><a href="#" title="LIÊN HỆ" class="active"> LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="map">
+                        <a href="https://www.google.com/maps/@10.2599639,105.7938183,15z">
+                            <img src="map.png" alt="nhà sách kính vạn bông"> </a>
+                    </div>
+                    <div class="content">
+                        <div class="left">
+                            <h2>Liên hệ với chúng tôi</h2>
+                            <p>
+                                Nhà sách Kính Vạn Bông là tổ hợp mua sắm – giải trí, vừa là nơi để mọi người thỏa mãn nhu cầu của bản thân, vừa là không gian giúp giải phóng cảm xúc cá nhân. Dù bạn là ai, bất kể độ tuổi, bất kể mức thu nhập như thế nào, đến Nhà sách Kính Vạn Bông đều
+                                có thể tìm thấy thứ mình cần; và đều có một nơi chốn để thư giãn, nghỉ ngơi, chia sẻ. Nhà sách Kính Vạn Bông dành ra một không gian đặc biệt cho trẻ em, với ước mong giúp các em được sống hồn nhiên, sinh động đúng với lứa
+                                tuổi, được khai mở tiềm năng sáng tạo, và trên hết, được kết nối với thế giới quanh mình..
+                            </p>
+                            <h2>Liên hệ</h2>
+                            <p>Cơ sở: 63 Nguyễn Thiện Thuật,Quận 3, Tp.HCM</p>
+                            <P>Điện thoại: 0779874562</P>
+                            <p>Email: KinhVanBong.bookstore@gmail.com</p>
+                        </div>
+                        <div class="right">
+                            <div class="form">
+
+                                <br>
+                                <br>
+                                <br>
+                                <div class="one">
+                                    <input type="text" value="" placeholder="Họ và Tên..." class="fill">
+                                </div>
+
+                                <div class="one">
+                                    <input type="text" value="" placeholder="Địa chỉ Email..." class="fill">
+                                </div>
+
+                                <div class="one">
+                                    <input type="text" value="" placeholder="Số điện thoại..." class="fill">
+                                </div>
+
+                                <div class="one">
+                                    <input type="text" value="" placeholder="Nhập nội dung liên hệ..." class="fill-in">
+                                </div>
+
+                                <button type="button" onclick="alert('Bạn đã gửi thành công!')">GỬI LIÊN HỆ</button>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+            </main>
+
+            <footer class="page-footer font-small blue pt-4">
+
+                <!-- Footer Links -->
+                <div class="container-fluid text-center text-md-left">
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+
+                            <!-- Content -->
+                            <h5 class="text-uppercase">KÍNH VẠN BÔNG</h5>
+                            <p>
+                                <a rel="noreferrer " href="REVIEW.html" class="icon " target="_blank " title="Facebook "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/fb.svg " width="32 " alt=" "></a>
+                                <a rel="noreferrer " href="https://www.youtube.com/user/TikiVBlog " class="icon " target="_blank " title="Youtube "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/youtube.svg " width="32
+                                                " alt=" "></a><a rel="noreferrer " href="http://zalo.me/589673439383195103 " class="icon " target="_blank " title="Zalo "><i class="icon kvbicon icon-footer-zalo "></i></a></p>
+                            <h4 class="store-title ">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h4>
+                            <p>
+                                <a rel="noreferrer " href="https://itunes.apple.com/vn/app/id958100553 " class="icon " target="_blank " aria-label=" "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/appstore.png " width="134
+                                                " alt=" "></a>
+                                <a rel="noreferrer " href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid " class="icon " target="_blank " aria-label=" "><img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/playstore.png
+                                                " width="134 " alt=" "></a>
+                            </p>
+                            <h4>PHƯƠNG THỨC THANH TOÁN</h4>
+                            <p><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/visa.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/mastercard.svg
+                                                " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/jcb.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/cash.svg
+                                                " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/internet-banking.svg " width="54 " alt=" "><img class="icon " src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/installment.svg "
+                                    width="54 " alt=" "></p>
+                            <p></p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="clearfix w-100 d-md-none pb-3">
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Dịch vụ</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Điều khoản sử dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Chính sách bảo mật</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Giới thiệu Kính Vạn Bông</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Hệ thống trung tâm nhà sách</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Hỗ trợ</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Chính sách đổi trả - hoàn tiền</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Chính sách khách sỉ</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Phương thức vận chuyển</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Phương thức thanh toán</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            </div>
+
+        </div>
+
+
+</body>
